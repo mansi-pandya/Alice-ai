@@ -1,0 +1,70 @@
+.img-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding: 15px;
+  text-align: center;
+  gap: 10px;
+}
+.app{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#alice{
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: contain;
+} 
+span{
+  background: linear-gradient(90deg, #0ae3f3, #e609ff);
+  color: transparent;
+  background-clip: text;
+  font-size: clamp(18px, 2vw, 32px);
+  font-weight: 500;
+  padding: 0 15px;
+  line-height: 1.5;
+}
+button{
+  width: 180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  background: rgb(122, 200, 255);
+  box-shadow: 2px 2px 25px rgb(28, 87, 249);
+  cursor: pointer;
+}
+#speak{
+  width: 150px;
+}
+p{
+  font-size: 1.3vmax;
+  color: white;
+  text-align: center;
+  padding: 0 40px;
+}
+.response{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+#ai_response{
+    width:100%;
+    max-width:250px;
+    height:auto;
+}
